@@ -16,7 +16,7 @@ By using this extension, you can comment out with one command.
 
 First, search for 「riot-commentout」 in the Marketplace and install
 
-Then, select the range you want to comment out with js in .tag file and press 「cmd + c」
+Then, select the range you want to comment out with js in .tag file and press 「cmd + m」
 
 
 ## Release Notes
