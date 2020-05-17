@@ -1,65 +1,26 @@
-# riot-comment README
+# riot-commentout
 
-This is the README for your extension "riot-comment". After writing up a brief description, we recommend including the following sections.
+help commenting out code written in js in riot's .tag file
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Javascript in script tag could not be commented out correctly with default shortcut as shown in the picture below.
 
-For example if there is an image subfolder under your extension project workspace:
+<img width="367" alt="スクリーンショット 2020-05-17 18 42 35" src="https://user-images.githubusercontent.com/50798936/82141073-5d751480-986e-11ea-9063-d064dec7845e.png">
 
-\!\[feature X\]\(images/feature-x.png\)
+By using this extension, you can comment out with one command.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+<img width="367" alt="スクリーンショット 2020-05-17 18 51 40" src="https://user-images.githubusercontent.com/50798936/82141243-7af6ae00-986f-11ea-9d7f-f707fd5e3384.png">
 
-## Requirements
+## Usage
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+First, search for 「riot-commentout」 in the Marketplace and install
 
-## Extension Settings
+Then, select the range you want to comment out with js in .tag file and press 「cmd + c」
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Initial release of riot-commentout
