@@ -1,6 +1,6 @@
 # riot-commentout
 
-help commenting out code written in js in riot's .tag file
+help commenting out code written in Javascript in riot's .tag file
 
 ## Features
 
