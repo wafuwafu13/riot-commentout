@@ -2,7 +2,7 @@
 	"name": "riot-commentout",
 	"displayName": "riot-commentout",
 	"description": "help commenting out code written in js in riot",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.45.0"
 	},
@@ -18,7 +18,7 @@
 		"keybindings": [
 			{
 				"command": "riot-comment.riot-commentout",
-				"key": "cmd+c"
+				"key": "cmd+m"
 			}
 		]
 	},
