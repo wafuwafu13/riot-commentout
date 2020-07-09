@@ -21,6 +21,15 @@ Then, select the range you want to comment out with js in .tag file and press ã€
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.1
 
 Initial release of riot-commentout
+
+### 0.0.2
+
+Change command
+
+### 0.0.3
+
+fix bug 
+https://github.com/wafuwafu13/riot-commentout/issues/1
