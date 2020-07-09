@@ -2,7 +2,7 @@
 	"name": "riot-commentout",
 	"displayName": "riot-commentout",
 	"description": "help commenting out code written in js in riot",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"engines": {
 		"vscode": "^1.45.0"
 	},

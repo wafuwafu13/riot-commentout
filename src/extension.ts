@@ -16,7 +16,7 @@ export function activate(context: vscode.ExtensionContext) {
 				let text: string = doc.lineAt(i).text;
 				let space: number = doc.lineAt(i).firstNonWhitespaceCharacterIndex;
 				let start_position: vscode.Position = new vscode.Position(i, space);
-				let end_position: vscode.Position = new vscode.Position(i, space+2); // 「//」を削除
+				let end_position: vscode.Position = new vscode.Position(i, space+3); // 「// 」を削除
 				let range: vscode.Range = new vscode.Range(start_position, end_position);
 				if (text.indexOf('//') === -1) {
                     await editor.edit((edit: string | any) => {
